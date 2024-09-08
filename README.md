@@ -165,7 +165,6 @@
         <section id="contact">
     <h2>Contact Us</h2>
     <p>If you have any questions or need further information, feel free to contact us at <a href="mailto:info@educationwebsite.com">mamrro8529@gmail.com</a>.</p>
-    <p>Developed by Eng: Amr Mohamed</p>
     
     <div class="social-icons">
         <a href="https://wa.me/message/5LRM2DVHPZQFM1" target="_blank">
@@ -177,6 +176,8 @@
         <a href="http://t.me/Mora_mo1" target="_blank">
             <img src="https://img.icons8.com/fluent/48/000000/telegram-app.png" alt="Telegram" />
         </a>
+            <p>Developed by Eng: Amr Mohamed</p>
+
     </div>
 </section>
 
