@@ -189,99 +189,109 @@
         <p>Developed by Eng: Amr Mohamed</p>
     </div>
 
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const loginContainer = document.getElementById('loginContainer');
-        const mainContent = document.getElementById('main');
-        const nav = document.getElementById('nav');
-        const videos = document.querySelectorAll('.video');
-        const videoTitles = document.querySelectorAll('.video-title');
-        const welcomeMessage = document.getElementById('welcomeMessage');
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const loginContainer = document.getElementById('loginContainer');
+    const mainContent = document.getElementById('main');
+    const nav = document.getElementById('nav');
+    const videos = document.querySelectorAll('.video');
+    const videoTitles = document.querySelectorAll('.video-title');
+    const welcomeMessage = document.getElementById('welcomeMessage');
 
-        function showLogin() {
-            loginContainer.style.display = 'block';
-            mainContent.style.display = 'none';
-            nav.style.display = 'none';
+    function showLogin() {
+        loginContainer.style.display = 'block';
+        mainContent.style.display = 'none';
+        nav.style.display = 'none';
+    }
+
+    function showMainContent(user) {
+        loginContainer.style.display = 'none';
+        mainContent.style.display = 'block';
+        nav.style.display = 'block';
+
+        switch (user) {
+            case '45454':
+                welcomeMessage.textContent = 'Welcome Mora 🤩!';
+                break;
+            case '45455':
+                welcomeMessage.textContent = 'Welcome Teto 🤩!';
+                break;
+            case '48389':
+                welcomeMessage.textContent = 'Welcome Sondos 🤩!';
+                break;
+            case '25695':
+                welcomeMessage.textContent = 'Welcome Vera 🤩!';
+                break;
+            case '50872':
+                welcomeMessage.textContent = 'Welcome Yasin 🤩!';
+                break;
+            default:
+                welcomeMessage.textContent = '';
+        }
+    }
+
+    function showVideosForUser(user) {
+        videos.forEach(video => video.classList.add('hidden'));
+        videoTitles.forEach(title => title.classList.add('hidden'));
+
+        if (user === '45455') {
+            document.getElementById('video1').classList.remove('hidden');
+            document.getElementById('video2').classList.remove('hidden');
+            document.getElementById('video1-title').classList.remove('hidden');
+            document.getElementById('video2-title').classList.remove('hidden');
+        }
+        
+        if (user === '45454') {
+            document.getElementById('video1').classList.remove('hidden');
+            document.getElementById('video2').classList.remove('hidden');
+            document.getElementById('video3').classList.remove('hidden');
+            document.getElementById('video4').classList.remove('hidden');
+            document.getElementById('video5').classList.remove('hidden');
+
+            document.getElementById('video1-title').classList.remove('hidden');
+            document.getElementById('video2-title').classList.remove('hidden');
+            document.getElementById('video3-title').classList.remove('hidden');
+            document.getElementById('video4-title').classList.remove('hidden');
+            document.getElementById('video5-title').classList.remove('hidden');
+        }
+        
+        if (user === '48389') {
+            document.getElementById('video5').classList.remove('hidden');
+            document.getElementById('video5-title').classList.remove('hidden');
         }
 
-        function showMainContent(user) {
-            loginContainer.style.display = 'none';
-            mainContent.style.display = 'block';
-            nav.style.display = 'block';
-
-            switch (user) {
-                case '45454':
-                    welcomeMessage.textContent = 'Welcome Mora 🤩!';
-                    break;
-                case '45455':
-                    welcomeMessage.textContent = 'Welcome Teto 🤩!';
-                    break;
-                case '48389':
-                    welcomeMessage.textContent = 'Welcome Sondos 🤩!';
-                    break;
-                case '25695':
-                    welcomeMessage.textContent = 'Welcome Vera 🤩!';
-                    break;
-                default:
-                    welcomeMessage.textContent = '';
-            }
+        if (user === '25695') {
+            document.getElementById('video5').classList.remove('hidden');
+            document.getElementById('video5-title').classList.remove('hidden');
         }
-
-        function showVideosForUser(user) {
-            videos.forEach(video => video.classList.add('hidden'));
-            videoTitles.forEach(title => title.classList.add('hidden'));
-
-            if (user === '45455') {
-                document.getElementById('video1').classList.remove('hidden');
-                document.getElementById('video2').classList.remove('hidden');
-                document.getElementById('video1-title').classList.remove('hidden');
-                document.getElementById('video2-title').classList.remove('hidden');
-            }
-            
-            if (user === '45454') {
-                document.getElementById('video1').classList.remove('hidden');
-                document.getElementById('video2').classList.remove('hidden');
-                document.getElementById('video3').classList.remove('hidden');
-                document.getElementById('video4').classList.remove('hidden');
-                document.getElementById('video5').classList.remove('hidden');
-
-                document.getElementById('video1-title').classList.remove('hidden');
-                document.getElementById('video2-title').classList.remove('hidden');
-                document.getElementById('video3-title').classList.remove('hidden');
-                document.getElementById('video4-title').classList.remove('hidden');
-                document.getElementById('video5-title').classList.remove('hidden');
-            }
-            
-            if (user === '48389') {
-                document.getElementById('video5').classList.remove('hidden');
-                document.getElementById('video5-title').classList.remove('hidden');
-            }
-
-            if (user === '25695') {
-                document.getElementById('video5').classList.remove('hidden');
-                document.getElementById('video5-title').classList.remove('hidden');
-            }
+        
+        if (user === '50872') {
+            document.getElementById('video5').classList.remove('hidden');
+            document.getElementById('video5-title').classList.remove('hidden');
         }
+    }
 
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
-            event.preventDefault();
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault();
 
-            var username = document.getElementById('username').value;
-            var password = document.getElementById('password').value;
-            var errorMessage = document.getElementById('errorMessage');
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+        var errorMessage = document.getElementById('errorMessage');
 
-            // Updated user validation
-            if ((username === '45454' && password === '45454') ||
-                (username === '45455' && password === '45455') ||
-                (username === '48389' && password === 'y1Dw@$eM') ||
-                (username === '25695' && password === '4@BZfO2x')) {
-                showMainContent(username);
-                showVideosForUser(username);
-            } else {
-                errorMessage.textContent = 'Invalid username or password';
-            }
-        });
-
-        showLogin();
+        // Updated user validation
+        if ((username === '45454' && password === '45454') ||
+            (username === '45455' && password === '45455') ||
+            (username === '48389' && password === 'y1Dw@$eM') ||
+            (username === '25695' && password === '4@BZfO2x') ||
+            (username === '50872' && password === 'uopc3L54')) {
+            showMainContent(username);
+            showVideosForUser(username);
+        } else {
+            errorMessage.textContent = 'Invalid username or password';
+        }
     });
-    </script>
+
+    showLogin();
+});
+</script>
+
