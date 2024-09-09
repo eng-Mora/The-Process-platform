@@ -206,16 +206,16 @@
 
             switch (user) {
                 case '45454':
-                    welcomeMessage.textContent = 'Welcome Mora!';
+                    welcomeMessage.textContent = 'Welcome Mora 🤩!';
                     break;
                 case '45455':
-                    welcomeMessage.textContent = 'Welcome Teto!';
+                    welcomeMessage.textContent = 'Welcome Teto 🤩!';
                     break;
                 case '48389':
-                    welcomeMessage.textContent = 'Welcome Sondos!';
+                    welcomeMessage.textContent = 'Welcome Sondos 🤩!';
                     break;
                 case '25695':
-                    welcomeMessage.textContent = 'Welcome Vera!';
+                    welcomeMessage.textContent = 'Welcome Vera 🤩!';
                     break;
                 default:
                     welcomeMessage.textContent = '';
