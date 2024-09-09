@@ -156,10 +156,8 @@
             <div class="video hidden" id="video4" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
                 <iframe src="https://drive.google.com/file/d/1f0f8Q3hTneh5tnT1piVaIe4xE8EceBHg/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
             </div>
-            <h2 class="video-title" id="video5-title">اه يا زمن</h2>
-            <div class="video" id="video5" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 55.9375%;">
-                <iframe src="https://fast.wistia.net/embed/iframe/iu5pz1rqv3" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
-            </div>
+            <h2 class="video-title" id="video5-title">شرح حصة 4 لغات</h2>
+            <div class="video hidden" id="video5" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 50.4167%;"><iframe src="https://fast.wistia.net/embed/iframe/px924vziau" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
         </section>
         
         <section id="contact">
@@ -202,76 +200,80 @@
 
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const loginContainer = document.getElementById('loginContainer');
-            const mainContent = document.getElementById('main');
-            const header = document.getElementById('header');
-            const nav = document.getElementById('nav');
-            const videos = document.querySelectorAll('.video');
-            const videoTitles = document.querySelectorAll('.video-title');
+    document.addEventListener('DOMContentLoaded', function() {
+        const loginContainer = document.getElementById('loginContainer');
+        const mainContent = document.getElementById('main');
+        const header = document.getElementById('header');
+        const nav = document.getElementById('nav');
+        const videos = document.querySelectorAll('.video');
+        const videoTitles = document.querySelectorAll('.video-title');
 
-            function showLogin() {
-                loginContainer.style.display = 'block';
-                mainContent.style.display = 'none';
-                header.style.display = 'none';
-                nav.style.display = 'none';
+        function showLogin() {
+            loginContainer.style.display = 'block';
+            mainContent.style.display = 'none';
+            header.style.display = 'none';
+            nav.style.display = 'none';
+        }
+
+        function showMainContent() {
+            loginContainer.style.display = 'none';
+            mainContent.style.display = 'block';
+            header.style.display = 'block';
+            nav.style.display = 'block';
+        }
+
+        function showVideosForUser(user) {
+            videos.forEach(video => video.classList.add('hidden'));
+            videoTitles.forEach(title => title.classList.add('hidden'));
+
+            if (user === '45455') {
+                document.getElementById('video1').classList.remove('hidden');
+                document.getElementById('video2').classList.remove('hidden');
+                document.getElementById('video1-title').classList.remove('hidden');
+                document.getElementById('video2-title').classList.remove('hidden');
             }
+            
+            if (user === '45454') {
+                document.getElementById('video1').classList.remove('hidden');
+                document.getElementById('video2').classList.remove('hidden');
+                document.getElementById('video3').classList.remove('hidden');
+                document.getElementById('video4').classList.remove('hidden');
+                document.getElementById('video5').classList.remove('hidden');
 
-            function showMainContent() {
-                loginContainer.style.display = 'none';
-                mainContent.style.display = 'block';
-                header.style.display = 'block';
-                nav.style.display = 'block';
+                document.getElementById('video1-title').classList.remove('hidden');
+                document.getElementById('video2-title').classList.remove('hidden');
+                document.getElementById('video3-title').classList.remove('hidden');
+                document.getElementById('video4-title').classList.remove('hidden');
+                document.getElementById('video5-title').classList.remove('hidden');
             }
-
-            function showVideosForUser(user) {
-                videos.forEach(video => video.classList.add('hidden'));
-                videoTitles.forEach(title => title.classList.add('hidden'));
-
-                if (user === '45455') {
-                    document.getElementById('video1').classList.remove('hidden');
-                    document.getElementById('video2').classList.remove('hidden');
-                    document.getElementById('video1-title').classList.remove('hidden');
-                    document.getElementById('video2-title').classList.remove('hidden');
-                  }
-                  
-                  if (user === '45454') {
-                    document.getElementById('video1').classList.remove('hidden');
-                    document.getElementById('video2').classList.remove('hidden');
-                    document.getElementById('video3').classList.remove('hidden');
-                    document.getElementById('video4').classList.remove('hidden');
-                    document.getElementById('video5').classList.remove('hidden');
-
-                    document.getElementById('video1-title').classList.remove('hidden');
-                    document.getElementById('video2-title').classList.remove('hidden');
-                    document.getElementById('video3-title').classList.remove('hidden');
-                    document.getElementById('video4-title').classList.remove('hidden');
-                    document.getElementById('video5-title').classList.remove('hidden');
-
-
-                } else {
-                    // Handle other users if needed
-                }
+            
+            if (user === '48389') {
+                // Specify which videos to show for user 48389
+                document.getElementById('video5').classList.remove('hidden');
+                
+                document.getElementById('video5-title').classList.remove('hidden');
             }
+        }
 
-            document.getElementById('loginForm').addEventListener('submit', function(event) {
-                event.preventDefault();
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
 
-                var username = document.getElementById('username').value;
-                var password = document.getElementById('password').value;
-                var errorMessage = document.getElementById('errorMessage');
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            var errorMessage = document.getElementById('errorMessage');
 
-                // Updated user validation
-                if ((username === '45454' && password === '45454') ||
-                    (username === '45455' && password === '45455')) {
-                    showMainContent();
-                    showVideosForUser(username);
-                } else {
-                    errorMessage.textContent = 'Invalid username or password';
-                }
-            });
-
-            showLogin();
+            // Updated user validation
+            if ((username === '45454' && password === '45454') ||
+                (username === '45455' && password === '45455') ||
+                (username === '48389' && password === 'y1Dw@$eM')) {
+                showMainContent();
+                showVideosForUser(username);
+            } else {
+                errorMessage.textContent = 'Invalid username or password';
+            }
         });
-    </script>
+
+        showLogin();
+    });
+</script>
 
