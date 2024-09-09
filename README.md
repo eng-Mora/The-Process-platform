@@ -125,10 +125,13 @@
     
     <main id="main" style="display:none;">
         <section id="home">
-    <img src="https://i.ibb.co/swk5Bb8/image-removebg-preview-6.png" alt="The Process Platform Image" style="width: 100%; max-width: 400px; display: block; margin: 0 auto 20px;">
-    <h2>The Process Platform</h2>
+    <div style="text-align: center;">
+        <img src="https://i.ibb.co/swk5Bb8/image-removebg-preview-6.png" alt="The Process Platform Image" style="width: 100%; max-width: 400px; margin-bottom: 20px;">
+        <h2>The Process Platform</h2>
+    </div>
     <div id="welcomeMessage" class="welcome-message"></div>
 </section>
+
 
         
         <section id="videos" class="video-container">
