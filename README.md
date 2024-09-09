@@ -125,9 +125,11 @@
     
     <main id="main" style="display:none;">
         <section id="home">
-            <h2> the Process Platform</h2>
-            <div id="welcomeMessage" class="welcome-message"></div>
-        </section>
+    <img src="https://i.ibb.co/swk5Bb8/image-removebg-preview-6.png" alt="The Process Platform Image" style="width: 100%; max-width: 400px; display: block; margin: 0 auto 20px;">
+    <h2>The Process Platform</h2>
+    <div id="welcomeMessage" class="welcome-message"></div>
+</section>
+
         
         <section id="videos" class="video-container">
             <h2 class="video-title" id="video1-title">شرح حصة 3 عربي (part1)</h2>
