@@ -10,12 +10,6 @@
             padding: 0;
             background-color: #ecf0f1;
         }
-        header {
-            background-color: #8B008B;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
         nav {
             background-color: #580058;
             padding: 10px;
@@ -58,21 +52,20 @@
             max-width: 800px;
             margin-bottom: 20px;
         }
-       .login-container {
-    background-color: #ffffff;
-    padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 500px; 
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-}
-
+        .login-container {
+            background-color: #ffffff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px; 
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+        }
         .login-container.active {
             display: block;
         }
@@ -118,25 +111,22 @@
         .hidden {
             display: none;
         }
+        .welcome-message {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
     </style>
 </head>
 <body>
-    <header id="header">
-        <h1>Welcome to the Process Website</h1>
-    </header>
-    
     <nav id="nav">
-        <ul>
-           <li><a href="https://eng-mora.github.io/The_Process/" target="_blank">Home</a></li>
-           <li><a href="#videos">Videos</a></li>
-           <li><a href="https://linktr.ee/the_process_Eng.tarek" target="_blank">Contact</a></li>
-        </ul>
+       
     </nav>
     
     <main id="main" style="display:none;">
         <section id="home">
-            <h2>About Our the Process Platform</h2>
-            <p>This website is dedicated to providing high-quality educational content through videos and other resources.</p>
+            <h2> the Process Platform</h2>
+            <div id="welcomeMessage" class="welcome-message"></div>
         </section>
         
         <section id="videos" class="video-container">
@@ -161,65 +151,75 @@
         </section>
         
         <section id="contact">
-    <h2>Contact Us</h2>
-    <p>If you have any questions or need further information, feel free to contact us at <a href="mailto:info@educationwebsite.com">mamrro8529@gmail.com</a>.</p>
-    
-    <div class="social-icons">
-        <a href="https://wa.me/message/5LRM2DVHPZQFM1" target="_blank">
-            <img src="https://img.icons8.com/fluent/48/000000/whatsapp.png" alt="WhatsApp" />
-        </a>
-        <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" target="_blank">
-            <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook" />
-        </a>
-        <a href="http://t.me/Mora_mo1" target="_blank">
-            <img src="https://img.icons8.com/fluent/48/000000/telegram-app.png" alt="Telegram" />
-        </a>
-            <p>Developed by Eng: Amr Mohamed</p>
-
-    </div>
-</section>
-
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, feel free to contact us at <a href="mailto:info@educationwebsite.com">mamrro8529@gmail.com</a>.</p>
+            <div class="social-icons">
+                <a href="https://wa.me/message/5LRM2DVHPZQFM1" target="_blank">
+                    <img src="https://img.icons8.com/fluent/48/000000/whatsapp.png" alt="WhatsApp" />
+                </a>
+                <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" target="_blank">
+                    <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook" />
+                </a>
+                <a href="http://t.me/Mora_mo1" target="_blank">
+                    <img src="https://img.icons8.com/fluent/48/000000/telegram-app.png" alt="Telegram" />
+                </a>
+                <p>Developed by Eng: Amr Mohamed</p>
+            </div>
+        </section>
     </main>
 
     <div class="login-container" id="loginContainer">
-    <img src="https://i.ibb.co/nmgZDmT/Whats-App-Image-2024-09-04-at-15-05-46-removebg-preview.png" alt="Login Image" style="width: 60%; max-width: 300px; margin-bottom: 20px;">
-    <h1>Login to The Process platform</h1>
-    <form id="loginForm">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" required>
-        
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
-        
-        <button type="submit">Login</button>
-        <div id="errorMessage" class="error"></div>
-    </form>
-            <p>Developed by Eng: Amr Mohamed</p>
-
-</div>
-
+        <img src="https://i.ibb.co/nmgZDmT/Whats-App-Image-2024-09-04-at-15-05-46-removebg-preview.png" alt="Login Image" style="width: 60%; max-width: 300px; margin-bottom: 20px;">
+        <h1>Login to The Process platform</h1>
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+            <div id="errorMessage" class="error"></div>
+        </form>
+        <p>Developed by Eng: Amr Mohamed</p>
+    </div>
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const loginContainer = document.getElementById('loginContainer');
         const mainContent = document.getElementById('main');
-        const header = document.getElementById('header');
         const nav = document.getElementById('nav');
         const videos = document.querySelectorAll('.video');
         const videoTitles = document.querySelectorAll('.video-title');
+        const welcomeMessage = document.getElementById('welcomeMessage');
 
         function showLogin() {
             loginContainer.style.display = 'block';
             mainContent.style.display = 'none';
-            header.style.display = 'none';
             nav.style.display = 'none';
         }
 
-        function showMainContent() {
+        function showMainContent(user) {
             loginContainer.style.display = 'none';
             mainContent.style.display = 'block';
-            header.style.display = 'block';
             nav.style.display = 'block';
+
+            switch (user) {
+                case '45454':
+                    welcomeMessage.textContent = 'Welcome Mora!';
+                    break;
+                case '45455':
+                    welcomeMessage.textContent = 'Welcome Teto!';
+                    break;
+                case '48389':
+                    welcomeMessage.textContent = 'Welcome Sondos!';
+                    break;
+                case '25695':
+                    welcomeMessage.textContent = 'Welcome Vera!';
+                    break;
+                default:
+                    welcomeMessage.textContent = '';
+            }
         }
 
         function showVideosForUser(user) {
@@ -248,9 +248,12 @@
             }
             
             if (user === '48389') {
-                // Specify which videos to show for user 48389
                 document.getElementById('video5').classList.remove('hidden');
-                
+                document.getElementById('video5-title').classList.remove('hidden');
+            }
+
+            if (user === '25695') {
+                document.getElementById('video5').classList.remove('hidden');
                 document.getElementById('video5-title').classList.remove('hidden');
             }
         }
@@ -265,8 +268,9 @@
             // Updated user validation
             if ((username === '45454' && password === '45454') ||
                 (username === '45455' && password === '45455') ||
-                (username === '48389' && password === 'y1Dw@$eM')) {
-                showMainContent();
+                (username === '48389' && password === 'y1Dw@$eM') ||
+                (username === '25695' && password === '4@BZfO2x')) {
+                showMainContent(username);
                 showVideosForUser(username);
             } else {
                 errorMessage.textContent = 'Invalid username or password';
@@ -275,5 +279,4 @@
 
         showLogin();
     });
-</script>
-
+    </script>
