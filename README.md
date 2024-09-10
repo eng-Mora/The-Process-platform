@@ -5,11 +5,10 @@
     <title>Educational Website</title>
     <style>
         body {
-            font-family: 'Courier New';
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #000604;
-    letter-spacing: 1.5px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #718e97;
         }
         nav {
             background-color: #6a828a;
@@ -117,7 +116,6 @@
             margin-bottom: 20px;
             color: #2c3e50;
         }
-        
     </style>
 </head>
 <body>
