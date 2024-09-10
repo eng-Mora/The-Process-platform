@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            font-weight: bold;
+                font-weight: bold;
 
             margin: 0;
             padding: 0;
@@ -127,10 +127,11 @@
     
     <main id="main" style="display:none;">
         <section id="home">
-    <div style="text-align: center;">
-        <img src="https://i.ibb.co/swk5Bb8/image-removebg-preview-6.png" alt="The Process Platform Image" style="width: 100%; max-width: 400px; margin-bottom: 20px;">
-        <h2>The Process Platform</h2>
-    </div>
+    <div style="text-align: center; background-color: #6a828a; padding: 20px; border-radius: 8px;">
+    <img src="https://i.ibb.co/swk5Bb8/image-removebg-preview-6.png" alt="The Process Platform Image" style="width: 100%; max-width: 400px; margin-bottom: 20px;">
+    <h2 style="color: white;">The Process Platform</h2>
+</div>
+
     <div id="welcomeMessage" class="welcome-message"></div>
 </section>
 
