@@ -156,9 +156,12 @@
                 <iframe src="https://drive.google.com/file/d/1f0f8Q3hTneh5tnT1piVaIe4xE8EceBHg/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
             </div>
             <h2 class="video-title" id="video5-title">شرح حصة 4 لغات</h2>
-            <div class="video hidden" id="video5" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 50.4167%;"><iframe src="https://fast.wistia.net/embed/iframe/px924vziau" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
-        </section>
+            <div class="video hidden" id="video5" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 50.4167%;"><iframe src="https://fast.wistia.net/embed/iframe/px924vziau" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+            </div>
+<h2 class="video-title" id="video6-title">شرح حصة 5 لغات</h2>
+<script src="https://fast.wistia.com/embed/medias/jb1jocnzq6.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jb1jocnzq6 seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/jb1jocnzq6/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
         
+        </section>
         <section id="contact">
             <h2>Contact Us</h2>
             <p>If you have any questions or need further information, feel free to contact us at <a href="mailto:info@educationwebsite.com">mamrro8529@gmail.com</a>.</p>
@@ -220,8 +223,8 @@ document.addEventListener('DOMContentLoaded', function() {
             case '45455':
                 welcomeMessage.textContent = 'Welcome Teto 🤩!';
                 break;
-            case '48389':
-                welcomeMessage.textContent = 'Welcome Sondos 🤩!';
+            case '50808':
+                welcomeMessage.textContent = 'Welcome Ahmed 🤩!';
                 break;
             case '25695':
                 welcomeMessage.textContent = 'Welcome Vera 🤩!';
@@ -251,22 +254,26 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('video3').classList.remove('hidden');
             document.getElementById('video4').classList.remove('hidden');
             document.getElementById('video5').classList.remove('hidden');
+            document.getElementById('video6').classList.remove('hidden');
+
 
             document.getElementById('video1-title').classList.remove('hidden');
             document.getElementById('video2-title').classList.remove('hidden');
             document.getElementById('video3-title').classList.remove('hidden');
             document.getElementById('video4-title').classList.remove('hidden');
             document.getElementById('video5-title').classList.remove('hidden');
+            document.getElementById('video6-title').classList.remove('hidden');
+
         }
         
-        if (user === '48389') {
-            document.getElementById('video5').classList.remove('hidden');
-            document.getElementById('video5-title').classList.remove('hidden');
+        if (user === '50808') {
+            document.getElementById('video6').classList.remove('hidden');
+            document.getElementById('video6-title').classList.remove('hidden');
         }
 
         if (user === '25695') {
-            document.getElementById('video5').classList.remove('hidden');
-            document.getElementById('video5-title').classList.remove('hidden');
+            document.getElementById('video6').classList.remove('hidden');
+            document.getElementById('video6-title').classList.remove('hidden');
         }
         
         if (user === '50872') {
@@ -285,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Updated user validation
         if ((username === '45454' && password === '45454') ||
             (username === '45455' && password === '45455') ||
-            (username === '48389' && password === 'y1Dw@$eM') ||
+            (username === '50808' && password === 'y1Dw@$eM') ||
             (username === '25695' && password === '4@BZfO2x') ||
             (username === '50872' && password === 'uopc3L54')) {
             showMainContent(username);
