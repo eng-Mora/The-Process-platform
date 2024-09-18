@@ -159,8 +159,7 @@
             <div class="video hidden" id="video5" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 50.4167%;"><iframe src="https://fast.wistia.net/embed/iframe/px924vziau" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
             </div>
 <h2 class="video-title" id="video6-title">شرح حصة 5 لغات</h2>
-<script src="https://fast.wistia.com/embed/medias/jb1jocnzq6.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jb1jocnzq6 seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/jb1jocnzq6/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-        
+<div class="video hidden" id="video6" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://fast.wistia.net/embed/iframe/jb1jocnzq6" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
