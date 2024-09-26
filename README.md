@@ -228,8 +228,8 @@ document.addEventListener('DOMContentLoaded', function() {
             case '25695':
                 welcomeMessage.textContent = 'Welcome Vera 🤩!';
                 break;
-            case '50872':
-                welcomeMessage.textContent = 'Welcome Yasin 🤩!';
+            case '63855':
+                welcomeMessage.textContent = 'Welcome Abdelrahman 🤩!';
                 break;
             default:
                 welcomeMessage.textContent = '';
@@ -275,9 +275,11 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('video6-title').classList.remove('hidden');
         }
         
-        if (user === '50872') {
+        if (user === '63855') {
             document.getElementById('video5').classList.remove('hidden');
             document.getElementById('video5-title').classList.remove('hidden');
+            document.getElementById('video6').classList.remove('hidden');
+            document.getElementById('video6-title').classList.remove('hidden');
         }
     }
 
@@ -293,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
             (username === '45455' && password === '45455') ||
             (username === '50808' && password === 'y1Dw@$eM') ||
             (username === '25695' && password === '4@BZfO2x') ||
-            (username === '50872' && password === 'uopc3L54')) {
+            (username === '63855' && password === 'uopc3L54')) {
             showMainContent(username);
             showVideosForUser(username);
         } else {
