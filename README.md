@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('video6-title').classList.remove('hidden');
         }
 
-        if (user === '25695') {
+        if (user === '25695o') {
             document.getElementById('video7').classList.remove('hidden');
             document.getElementById('video8').classList.remove('hidden');
             document.getElementById('video9').classList.remove('hidden');
