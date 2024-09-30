@@ -159,7 +159,27 @@
             <div class="video hidden" id="video5" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 50.4167%;"><iframe src="https://fast.wistia.net/embed/iframe/px924vziau" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
             </div>
 <h2 class="video-title" id="video6-title">شرح حصة 5 لغات</h2>
-<div class="video hidden" id="video6" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://fast.wistia.net/embed/iframe/jb1jocnzq6" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+<div class="video hidden" id="video6" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://fast.wistia.net/embed/iframe/jb1jocnzq6" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+        <h2 class="video-title" id="video7-title">Revision on chapter 1</h2>
+        <div class="video hidden" id="video7" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1QQJBGgQNp-glB5wdLCOGVkFzgk2WFQbX/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+
+        
+        <h2 class="video-title" id="video8-title">part 2 </h2>
+<div class="video hidden" id="video8" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1QSOLviOMwU31qGRWo3MaEDddElsr6CMz/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+        
+        <h2 class="video-title" id="video9-title">part 3 </h2>
+        <div class="video hidden" id="video9" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1QU1WOgR8EknGyZjKeyOA9rAl3tqGVs2L/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
@@ -265,17 +285,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
         }
         
-        if (user === '50808') {
+        if (user === '50808o') {
             document.getElementById('video6').classList.remove('hidden');
             document.getElementById('video6-title').classList.remove('hidden');
         }
 
         if (user === '25695') {
-            document.getElementById('video6').classList.remove('hidden');
-            document.getElementById('video6-title').classList.remove('hidden');
+            document.getElementById('video7').classList.remove('hidden');
+            document.getElementById('video8').classList.remove('hidden');
+            document.getElementById('video9').classList.remove('hidden');
+
+            document.getElementById('video7-title').classList.remove('hidden');
+            document.getElementById('video8-title').classList.remove('hidden');
+            document.getElementById('video9-title').classList.remove('hidden');
+
         }
         
-        if (user === '63855') {
+        if (user === '638550') {
             document.getElementById('video5').classList.remove('hidden');
             document.getElementById('video5-title').classList.remove('hidden');
             document.getElementById('video6').classList.remove('hidden');
@@ -293,9 +319,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Updated user validation
         if ((username === '45454' && password === '45454') ||
             (username === '45455' && password === '45455') ||
-            (username === '50808' && password === 'y1Dw@$eM') ||
+            (username === '50808o' && password === 'y1Dw@$eM') ||
             (username === '25695' && password === '4@BZfO2x') ||
-            (username === '63855' && password === 'uopc3L54')) {
+            (username === '63855o' && password === 'uopc3L54')) {
             showMainContent(username);
             showVideosForUser(username);
         } else {
