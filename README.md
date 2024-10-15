@@ -172,10 +172,10 @@
         <div class="video hidden" id="video9" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1QU1WOgR8EknGyZjKeyOA9rAl3tqGVs2L/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
         
 
-         <h2 class="video-title" id="video10-title">شرح حصة 7 عربي</h2>
+         <h2 class="video-title" id="video10-title">part 1 شرح حصة 7 عربي</h2>
          <div class="video hidden" id="video10" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1CjR1Os_njGcPXwXwVEyQWi2u0q2v-pPs/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
          
-                 <h2 class="video-title" id="video11-title">شرح حصة 7 عربي</h2>
+                 <h2 class="video-title" id="video11-title">part 2 شرح حصة 7 عربي</h2>
 <div class="video hidden" id="video11" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/10Xeuq0zm2DXarEFQzr36VRDwF3hmM-3A/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
         
         
