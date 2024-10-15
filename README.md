@@ -174,7 +174,9 @@
 
          <h2 class="video-title" id="video10-title">شرح حصة 7 عربي</h2>
          <div class="video hidden" id="video10" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1CjR1Os_njGcPXwXwVEyQWi2u0q2v-pPs/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
-        
+         
+                 <h2 class="video-title" id="video11-title">شرح حصة 7 عربي</h2>
+<div class="video hidden" id="video11" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/10Xeuq0zm2DXarEFQzr36VRDwF3hmM-3A/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
         
         
         
@@ -274,6 +276,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('video5').classList.remove('hidden');
             document.getElementById('video6').classList.remove('hidden');
             document.getElementById('video10').classList.remove('hidden');
+            document.getElementById('video11').classList.remove('hidden');
 
 
 
@@ -284,13 +287,18 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('video5-title').classList.remove('hidden');
             document.getElementById('video6-title').classList.remove('hidden');
             document.getElementById('video10-title').classList.remove('hidden');
+            document.getElementById('video11-title').classList.remove('hidden');
 
 
         }
         
         if (user === '58391') {
             document.getElementById('video10').classList.remove('hidden');
+            document.getElementById('video11').classList.remove('hidden');
+
             document.getElementById('video10-title').classList.remove('hidden');
+            document.getElementById('video11-title').classList.remove('hidden');
+
         }
 
         if (user === '25695o') {
