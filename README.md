@@ -249,8 +249,8 @@ document.addEventListener('DOMContentLoaded', function() {
             case '58391':
                 welcomeMessage.textContent = 'Welcome Malak 🤩!';
                 break;
-            case '63855':
-                welcomeMessage.textContent = 'Welcome Abdelrahman 🤩!';
+            case '44889':
+                welcomeMessage.textContent = 'Welcome Mohamed 🤩!';
                 break;
             default:
                 welcomeMessage.textContent = '';
@@ -301,22 +301,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         }
 
-        if (user === '25695o') {
-            document.getElementById('video7').classList.remove('hidden');
-            document.getElementById('video8').classList.remove('hidden');
-            document.getElementById('video9').classList.remove('hidden');
-
-            document.getElementById('video7-title').classList.remove('hidden');
-            document.getElementById('video8-title').classList.remove('hidden');
-            document.getElementById('video9-title').classList.remove('hidden');
-
-        }
         
-        if (user === '638550o') {
-            document.getElementById('video5').classList.remove('hidden');
-            document.getElementById('video5-title').classList.remove('hidden');
-            document.getElementById('video6').classList.remove('hidden');
-            document.getElementById('video6-title').classList.remove('hidden');
+        if (user === '44889') {
+            document.getElementById('video10').classList.remove('hidden');
+            document.getElementById('video10-title').classList.remove('hidden');
+            
+            document.getElementById('video11').classList.remove('hidden');
+            document.getElementById('video11-title').classList.remove('hidden');
         }
     }
 
@@ -331,7 +322,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if ((username === '45454' && password === '45454') ||
             (username === '45455' && password === '45455') ||
             (username === '58391' && password === 'y1Dw@$eM') ||
-            (username === '63855o' && password === 'uopc3L54')) {
+            (username === '44889' && password === 'uopc3L54')) {
             showMainContent(username);
             showVideosForUser(username);
         } else {
