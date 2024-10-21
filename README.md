@@ -243,8 +243,8 @@ document.addEventListener('DOMContentLoaded', function() {
             case '45454':
                 welcomeMessage.textContent = 'Welcome Mora 🤩!';
                 break;
-            case '45455':
-                welcomeMessage.textContent = 'Welcome Teto 🤩!';
+            case '64561':
+                welcomeMessage.textContent = 'Welcome AYA 🤩!';
                 break;
             case '58391':
                 welcomeMessage.textContent = 'Welcome Malak 🤩!';
@@ -261,11 +261,11 @@ document.addEventListener('DOMContentLoaded', function() {
         videos.forEach(video => video.classList.add('hidden'));
         videoTitles.forEach(title => title.classList.add('hidden'));
 
-        if (user === '45455') {
-            document.getElementById('video1').classList.remove('hidden');
-            document.getElementById('video2').classList.remove('hidden');
-            document.getElementById('video1-title').classList.remove('hidden');
-            document.getElementById('video2-title').classList.remove('hidden');
+        if (user === '64561') {
+            document.getElementById('video10').classList.remove('hidden');
+            document.getElementById('video11').classList.remove('hidden');
+            document.getElementById('video10-title').classList.remove('hidden');
+            document.getElementById('video11-title').classList.remove('hidden');
         }
         
         if (user === '45454') {
@@ -320,7 +320,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Updated user validation
         if ((username === '45454' && password === '45454') ||
-            (username === '45455' && password === '45455') ||
+            (username === '64561' && password === 'A843@pm') ||
             (username === '58391' && password === 'y1Dw@$eM') ||
             (username === '44889' && password === 'uopc3L54')) {
             showMainContent(username);
