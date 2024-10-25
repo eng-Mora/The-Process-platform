@@ -246,8 +246,8 @@ document.addEventListener('DOMContentLoaded', function() {
             case '64561':
                 welcomeMessage.textContent = 'Welcome AYA 🤩!';
                 break;
-            case '58391':
-                welcomeMessage.textContent = 'Welcome Malak 🤩!';
+            case '95731':
+                welcomeMessage.textContent = 'Welcome Rodaina 🤩!';
                 break;
             case '44889':
                 welcomeMessage.textContent = 'Welcome Mohamed 🤩!';
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         }
         
-        if (user === '58391') {
+        if (user === '95731') {
             document.getElementById('video10').classList.remove('hidden');
             document.getElementById('video11').classList.remove('hidden');
 
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Updated user validation
         if ((username === '45454' && password === '45454') ||
             (username === '64561' && password === 'A843@pm') ||
-            (username === '58391' && password === 'y1Dw@$eM') ||
+            (username === '95731' && password === 'y1Dw@$eM') ||
             (username === '44889' && password === 'uopc3L54')) {
             showMainContent(username);
             showVideosForUser(username);
