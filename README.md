@@ -224,17 +224,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function showMainContent() {
-    loginContainer.style.display = 'none';
-    mainContent.style.display = 'block';
-    nav.style.display = 'block';
-}
-
+        loginContainer.style.display = 'none';
+        mainContent.style.display = 'block';
+        nav.style.display = 'block';
+    }
 
     function showVideosForUser(user) {
         videos.forEach(video => video.classList.add('hidden'));
         videoTitles.forEach(title => title.classList.add('hidden'));
 
-        if (user === '64561') {
+        if (user === '0') {
             document.getElementById('video10').classList.remove('hidden');
             document.getElementById('video11').classList.remove('hidden');
             document.getElementById('video10-title').classList.remove('hidden');
@@ -250,7 +249,6 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('video6').classList.remove('hidden');
             document.getElementById('video10').classList.remove('hidden');
             document.getElementById('video11').classList.remove('hidden');
-
             document.getElementById('video1-title').classList.remove('hidden');
             document.getElementById('video2-title').classList.remove('hidden');
             document.getElementById('video3-title').classList.remove('hidden');
@@ -261,19 +259,10 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('video11-title').classList.remove('hidden');
         }
         
-        if (user === '95731') {
+        if (user === '52614') {
             document.getElementById('video10').classList.remove('hidden');
             document.getElementById('video11').classList.remove('hidden');
-
             document.getElementById('video10-title').classList.remove('hidden');
-            document.getElementById('video11-title').classList.remove('hidden');
-        }
-
-        if (user === '44889') {
-            document.getElementById('video10').classList.remove('hidden');
-            document.getElementById('video10-title').classList.remove('hidden');
-            
-            document.getElementById('video11').classList.remove('hidden');
             document.getElementById('video11-title').classList.remove('hidden');
         }
     }
@@ -285,9 +274,14 @@ document.addEventListener('DOMContentLoaded', function() {
         var errorMessage = document.getElementById('errorMessage');
 
         // Validate username
-        if (['45454', '64561', '95731', '44889'].includes(username)) {
-            showMainContent(username);
-            showVideosForUser(username);
+        if (['45454', '0', '0', '0', '18234', '19543', '52614', '51367', '74659', '76431', '63824', '72904', 
+        '52918', '84957', '71945', '83629', '38241', '47285', '29067', '94185', '90576', '35926', '83415', '47623', 
+        '63172', '81023', '67892', '85297', '24785', '94762', '90283', '19473', '60752', '29316', '10592', '84267', 
+        '37518', '86247', '82654', '31605', '82436', '59123', '93821', '79824', '10547', '43096', '27509', '94251', 
+        '94238', '71825', '60194', '63472', '68025', '94257', '43712', '85213', '71489', '37486', '59184', '40958', 
+        '27936', '68047', '31562', '85947'].includes(username)) {
+            showMainContent(); // No username argument needed
+            showVideosForUser(username); // Pass username for video logic
         } else {
             errorMessage.textContent = 'Invalid username';
         }
@@ -296,4 +290,3 @@ document.addEventListener('DOMContentLoaded', function() {
     showLogin();
 });
 </script>
-
