@@ -132,8 +132,6 @@
     <h2 style="color: white;">The Process Platform</h2>
 </div>
 
-
-    <div id="welcomeMessage" class="welcome-message"></div>
 </section>
 
 
@@ -218,36 +216,19 @@ document.addEventListener('DOMContentLoaded', function() {
     const nav = document.getElementById('nav');
     const videos = document.querySelectorAll('.video');
     const videoTitles = document.querySelectorAll('.video-title');
-    const welcomeMessage = document.getElementById('welcomeMessage');
-
+    
     function showLogin() {
         loginContainer.style.display = 'block';
         mainContent.style.display = 'none';
         nav.style.display = 'none';
     }
 
-    function showMainContent(user) {
-        loginContainer.style.display = 'none';
-        mainContent.style.display = 'block';
-        nav.style.display = 'block';
+    function showMainContent() {
+    loginContainer.style.display = 'none';
+    mainContent.style.display = 'block';
+    nav.style.display = 'block';
+}
 
-        switch (user) {
-            case '45454':
-                welcomeMessage.textContent = 'Welcome Mora 🤩!';
-                break;
-            case '64561o':
-                welcomeMessage.textContent = 'Welcome AYA 🤩!';
-                break;
-            case '95731o':
-                welcomeMessage.textContent = 'Welcome Rodaina 🤩!';
-                break;
-            case '44889o':
-                welcomeMessage.textContent = 'Welcome Mohamed 🤩!';
-                break;
-            default:
-                welcomeMessage.textContent = '';
-        }
-    }
 
     function showVideosForUser(user) {
         videos.forEach(video => video.classList.add('hidden'));
