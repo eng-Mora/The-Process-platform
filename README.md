@@ -178,12 +178,6 @@
                  <h2 class="video-title" id="video11-title">part 2 شرح حصة 7 عربي</h2>
 <div class="video hidden" id="video11" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/10Xeuq0zm2DXarEFQzr36VRDwF3hmM-3A/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
         
-        
-        
-        
-        
-        
-        
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
@@ -209,9 +203,7 @@
         <form id="loginForm">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" required>
-            
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
+
             
             <button type="submit">Login</button>
             <div id="errorMessage" class="error"></div>
@@ -243,13 +235,13 @@ document.addEventListener('DOMContentLoaded', function() {
             case '45454':
                 welcomeMessage.textContent = 'Welcome Mora 🤩!';
                 break;
-            case '64561':
+            case '64561o':
                 welcomeMessage.textContent = 'Welcome AYA 🤩!';
                 break;
-            case '95731':
+            case '95731o':
                 welcomeMessage.textContent = 'Welcome Rodaina 🤩!';
                 break;
-            case '44889':
+            case '44889o':
                 welcomeMessage.textContent = 'Welcome Mohamed 🤩!';
                 break;
             default:
@@ -278,8 +270,6 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('video10').classList.remove('hidden');
             document.getElementById('video11').classList.remove('hidden');
 
-
-
             document.getElementById('video1-title').classList.remove('hidden');
             document.getElementById('video2-title').classList.remove('hidden');
             document.getElementById('video3-title').classList.remove('hidden');
@@ -288,8 +278,6 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('video6-title').classList.remove('hidden');
             document.getElementById('video10-title').classList.remove('hidden');
             document.getElementById('video11-title').classList.remove('hidden');
-
-
         }
         
         if (user === '95731') {
@@ -298,10 +286,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
             document.getElementById('video10-title').classList.remove('hidden');
             document.getElementById('video11-title').classList.remove('hidden');
-
         }
 
-        
         if (user === '44889') {
             document.getElementById('video10').classList.remove('hidden');
             document.getElementById('video10-title').classList.remove('hidden');
@@ -315,18 +301,14 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
 
         var username = document.getElementById('username').value;
-        var password = document.getElementById('password').value;
         var errorMessage = document.getElementById('errorMessage');
 
-        // Updated user validation
-        if ((username === '45454' && password === '45454') ||
-            (username === '64561' && password === 'A843@pm') ||
-            (username === '95731' && password === 'y1Dw@$eM') ||
-            (username === '44889' && password === 'uopc3L54')) {
+        // Validate username
+        if (['45454', '64561', '95731', '44889'].includes(username)) {
             showMainContent(username);
             showVideosForUser(username);
         } else {
-            errorMessage.textContent = 'Invalid username or password';
+            errorMessage.textContent = 'Invalid username';
         }
     });
 
