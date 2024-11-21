@@ -128,7 +128,7 @@
     <main id="main" style="display:none;">
         <section id="home">
 <div style="text-align: center; padding: 20px; border-radius: 8px;">
-    <img src="https://i.ibb.co/swk5Bb8/image-removebg-preview-6.png" alt="The Process Platform Image" style="width: 100%; max-width: 400px; margin-bottom: 20px;">
+    <img src="https://i.ibb.co/59zvgNq/image-removebg-preview-6-removebg-preview-1.png" alt="The Process Platform Image" style="width: 100%; max-width: 400px; margin-bottom: 20px;">
     <h2 style="color: white;">The Process Platform</h2>
 </div>
 
