@@ -306,19 +306,32 @@
 
                           <div class="video" id="video14" style="display: none;">
             <h1 class="video-title"> Lecture 2 exercises</h1>
-           <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/7991d0b21812e3cdf0/ea0a150b4abf0b0d' width='640' height='1067' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
-                      
+<iframe src="https://drive.google.com/file/d/1oBoK9l4K7tbDUWb-xhq7qv5-_QgeweZG/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen>
+</iframe>
            </div>
-
                           <div class="video" id="video15" style="display: none;">
             <h1 class="video-title"> Lecture 3 exercises</h1>
-           <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/0691d0b21813ecc08f/5cb19cdd1e073420' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
-
+<iframe src="https://drive.google.com/file/d/1E4v_fKT0zmliw0KM1is4Attl3Pr4sZOo/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen>
+</iframe>
                       </div>
+                      
                       <div class="video" id="video16" style="display: none;">
             <h1 class="video-title"> Lecture 4 exercises</h1>
                         <h1 class="video-title"> part 1</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/ac91d0b2191be4c325/515d4ea967fbc5a1' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1ezGOIbNqI314sf209HQgS1zifixZWPlP/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen>
+</iframe>
                                    <h1 class="video-title"> part 2</h1>
 <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/7091d0b2191beac9f9/9a7288fba7f931fd' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
                                               <h1 class="video-title"> part 3</h1>
