@@ -171,72 +171,137 @@
             
             <div class="video" id="video1" style="display: none;">
                 <h1 class="video-title">Magnetic flux</h1>
-     <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/4491d0b21912ebcdcd/5b1354c14c4caf23' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/15KaT0AVNz1WNIaT2sSkWzxNlFdnrKiNi/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
                  </div>
 
             <div class="video" id="video2" style="display: none;">
             <h1 class="video-title">Flux density due to current passing in straight wire</h1>
-               <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/0691d0b21913e3ce8f/d1eaa9f23748c0f6' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1A8putuPbjHw5CeNHCl_SYby-HdvRN5xH/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
             
               <div class="video" id="video3" style="display: none;">
             <h1 class="video-title"> Total flux density</h1>
-               <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/ac91d0b21919e3c625/2c11e91cf89b2b46' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1wLttY10Q-iQ8yXjLIhb8WJPBqwiq6uKo/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
           
               <div class="video" id="video4" style="display: none;">
             <h1 class="video-title">Cicular coil </h1>
-                <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/d391d0b21913e3cf5a/d2d31be031c54418' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1dDMF-1y_g20K5iec815xjTQesF7ORQdk/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
             
               <div class="video" id="video5" style="display: none;">
             <h1 class="video-title"> Solenoid</h1>
-                <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/4d91d0b21919e0c0c4/19b1d081cb748686' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1KN8YLcwh5csP5MSqC-y5cNOh8saC1kz7/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
             
               <div class="video" id="video6" style="display: none;">
             <h1 class="video-title">Magnetic force </h1>
-                <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/a791d0b21912e9c02e/6e552af326935c85' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/10dHYNaaRFkvAuoW7lKZLIWWi9so-5HKR/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
             
               <div class="video" id="video7" style="display: none;">
             <h1 class="video-title"> Torque</h1>
-            <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/4d91d0b21919e1c1c4/8ba79be3b5512c60' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1WcTWRaxKrMaE6-sA1hDeOVModv_zos7R/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
             
               <div class="video" id="video8" style="display: none;">
             <h1 class="video-title"> Galvanometer</h1>
-                <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/a791d0b21913e3cb2e/25b6cdffb9b1ce15' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1GBm6oLaP1vQSSijqk7_tiK-a_UOK2N2x/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
             
               <div class="video" id="video9" style="display: none;">
             <h1 class="video-title">Ammeter </h1>
-               <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/7091d0b21913e2c9f9/1ae4cbdba0a59c18' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1CGdm_XWQNu_T9LuuVqtoaJwWOvQa1B9K/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
             
               <div class="video" id="video10" style="display: none;">
             <h1 class="video-title"> Voltmeter</h1>
-                <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/7091d0b21913edc6f9/61e35b224ebf56cd' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
-            </div>
+<iframe src="https://drive.google.com/file/d/1M-5z44sdEw1oP2u3p4WSYEe6gaCarnmB/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+</div>            
              
               <div class="video" id="video11" style="display: none;">
             <h1 class="video-title"> Ohmmeter</h1>
-                <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/4d91d0b2191aebc8c4/7c62f5e3fda8db71' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1B2bPG2Jd3mxGfYwPxvjxVGD4TRKkTH3d/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
               <div class="video" id="video12" style="display: none;">
             <h1 class="video-title"> Important on devices</h1>
-                <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/4491d0b21913e3c4cd/0123a282367449b8' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/19uTpb0KheuAWuR3vyDylR0ge0EWY-8aW/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
             </div>
             
                           <div class="video" id="video13" style="display: none;">
             <h1 class="video-title"> Lecture 1 exercises</h1>
              <h1 class="video-title"> part 1</h1>
-              <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/a791d0b2181de5c22e/5ce15a2882fe9e9f' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1CSKT46MhUNa5Hd1J3dFyTfFKKncZ9cw-/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
                         <h1 class="video-title"> part 2</h1>
-           <iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/1191d0b2191ae0cf98/3ceef39c1b3baae7' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe> 
+<iframe src="https://drive.google.com/file/d/1D1fuPu2GXxOf7FiYKc9CsyPtzlLIr-X6/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
                          <h1 class="video-title"> part 3</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/ac91d0b21812efc025/be5244c31fade634' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
-
+<iframe src="https://drive.google.com/file/d/11SJIHFp3YvNoOKvOcd_Y4ZVil5NkZj2y/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
+                        <h1 class="video-title"> part 4</h1>
+<iframe src="https://drive.google.com/file/d/1kH-Fy4ZQIVwUb-9aymh9JZOHyF9P8wTO/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
            </div>
 
                           <div class="video" id="video14" style="display: none;">
