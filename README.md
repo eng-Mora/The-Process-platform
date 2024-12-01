@@ -332,10 +332,20 @@
         allow="autoplay" 
         allowfullscreen>
 </iframe>
+
+
                                    <h1 class="video-title"> part 2</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/7091d0b2191beac9f9/9a7288fba7f931fd' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1R0ZQXkYbajlfrynBhmcxcVt7HcP_21bs/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
                                               <h1 class="video-title"> part 3</h1>
-<iframe class='sproutvideo-player' src='https://videos.sproutvideo.com/embed/4d91d0b2191ae2c1c4/0e573682c16b932e' width='640' height='384' frameborder='0' allowfullscreen referrerpolicy='no-referrer-when-downgrade' title='Video Player'></iframe>
+<iframe src="https://drive.google.com/file/d/1kBFmbFj0zV4BBXqvHbVo3Xe4S2X7TzMs/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay" 
+        allowfullscreen></iframe>
 
                       </div>
         </section>
