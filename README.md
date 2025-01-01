@@ -146,208 +146,84 @@
 
         <section id="videos" class="video-container">
 <select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
-            <option value="video1">.....option.....</option>
-                <option value="video1">Magnetic flux </option>
-                <option value="video2">Flux density due to current passing in straight wire</option>
-                <option value="video3">Total flux density</option>
-                <option value="video4">Cicular coil </option>
-                <option value="video5">Solenoid </option>
-                <option value="video6">Magnetic force </option>
-                <option value="video7">Torque </option>
-                <option value="video8">Galvanometer </option>
-                <option value="video9">Ammeter </option>
-                <option value="video10">Voltmeter </option>
-                <option value="video11">Ohmmeter </option>
-                <option value="video12">Important on devices</option>
-                <option value="video13">Lecture 1 exercises</option>
-                <option value="video14">Lecture 2 exercises</option>
-                <option value="video15">Lecture 3 exercises</option>
-                <option value="video16">Lecture 4 exercises</option>
-                
-                
-            </select>
+            <option value="video0">.....option.....</option>
+                <option value="video1">Faraday rule and lenz </option>
+                <option value="video2">Induced emf in straight wire</option>
+                <option value="video3">Mutual Induction</option>
+                <option value="video4">Self induction</option>
+                <option value="video5">Dynamo </option>
+                <option value="video6">Transformer </option>
+                <option value="video7">Motor </option>
+              
+
+                <option value="video8">Lecture 1 exercises</option>
+                <option value="video9">Lecture 2 exercises</option>
+                <option value="video10">Lecture 3 exercises</option>
+                <option value="video11">Lecture 4 exercises</option>
+                            </select>
             
             
             
             <div class="video" id="video1" style="display: none;">
-                <h1 class="video-title">Magnetic flux</h1>
-<iframe src="https://drive.google.com/file/d/15KaT0AVNz1WNIaT2sSkWzxNlFdnrKiNi/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-                 </div>
+                <h1 class="video-title">Faraday rule and lenz</h1>
+<iframe src="https://drive.google.com/file/d/1CO-KACGNBJN_B5XQjG4hymadfe2qQCuK/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
 
-            <div class="video" id="video2" style="display: none;">
-            <h1 class="video-title">Flux density due to current passing in straight wire</h1>
-<iframe src="https://drive.google.com/file/d/1A8putuPbjHw5CeNHCl_SYby-HdvRN5xH/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
+<div class="video" id="video2" style="display: none;">
+                <h1 class="video-title">Induced emf in straight wire</h1>
+<iframe src="https://drive.google.com/file/d/1IgK0AzHmdPveba0dS6G-w3oB9KzIwtAz/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
             </div>
-            
-              <div class="video" id="video3" style="display: none;">
-            <h1 class="video-title"> Total flux density</h1>
-<iframe src="https://drive.google.com/file/d/1wLttY10Q-iQ8yXjLIhb8WJPBqwiq6uKo/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-          
-              <div class="video" id="video4" style="display: none;">
-            <h1 class="video-title">Cicular coil </h1>
-<iframe src="https://drive.google.com/file/d/1dDMF-1y_g20K5iec815xjTQesF7ORQdk/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-            
-              <div class="video" id="video5" style="display: none;">
-            <h1 class="video-title"> Solenoid</h1>
-<iframe src="https://drive.google.com/file/d/1KN8YLcwh5csP5MSqC-y5cNOh8saC1kz7/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-            
-              <div class="video" id="video6" style="display: none;">
-            <h1 class="video-title">Magnetic force </h1>
-<iframe src="https://drive.google.com/file/d/10dHYNaaRFkvAuoW7lKZLIWWi9so-5HKR/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-            
-              <div class="video" id="video7" style="display: none;">
-            <h1 class="video-title"> Torque</h1>
-<iframe src="https://drive.google.com/file/d/1WcTWRaxKrMaE6-sA1hDeOVModv_zos7R/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-            
-              <div class="video" id="video8" style="display: none;">
-            <h1 class="video-title"> Galvanometer</h1>
-<iframe src="https://drive.google.com/file/d/1GBm6oLaP1vQSSijqk7_tiK-a_UOK2N2x/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-            
-              <div class="video" id="video9" style="display: none;">
-            <h1 class="video-title">Ammeter </h1>
-<iframe src="https://drive.google.com/file/d/1CGdm_XWQNu_T9LuuVqtoaJwWOvQa1B9K/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-            
-              <div class="video" id="video10" style="display: none;">
-            <h1 class="video-title"> Voltmeter</h1>
-<iframe src="https://drive.google.com/file/d/1M-5z44sdEw1oP2u3p4WSYEe6gaCarnmB/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-</div>            
-             
-              <div class="video" id="video11" style="display: none;">
-            <h1 class="video-title"> Ohmmeter</h1>
-<iframe src="https://drive.google.com/file/d/1B2bPG2Jd3mxGfYwPxvjxVGD4TRKkTH3d/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-              <div class="video" id="video12" style="display: none;">
-            <h1 class="video-title"> Important on devices</h1>
-<iframe src="https://drive.google.com/file/d/19uTpb0KheuAWuR3vyDylR0ge0EWY-8aW/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-            </div>
-            
-                          <div class="video" id="video13" style="display: none;">
-            <h1 class="video-title"> Lecture 1 exercises</h1>
-             <h1 class="video-title"> part 1</h1>
-<iframe src="https://drive.google.com/file/d/1CSKT46MhUNa5Hd1J3dFyTfFKKncZ9cw-/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-                        <h1 class="video-title"> part 2</h1>
-<iframe src="https://drive.google.com/file/d/1D1fuPu2GXxOf7FiYKc9CsyPtzlLIr-X6/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-                         <h1 class="video-title"> part 3</h1>
-<iframe src="https://drive.google.com/file/d/11SJIHFp3YvNoOKvOcd_Y4ZVil5NkZj2y/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-                        <h1 class="video-title"> part 4</h1>
-<iframe src="https://drive.google.com/file/d/1kH-Fy4ZQIVwUb-9aymh9JZOHyF9P8wTO/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-           </div>
 
-                          <div class="video" id="video14" style="display: none;">
-            <h1 class="video-title"> Lecture 2 exercises</h1>
-<iframe src="https://drive.google.com/file/d/1oBoK9l4K7tbDUWb-xhq7qv5-_QgeweZG/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen>
-</iframe>
-           </div>
-                          <div class="video" id="video15" style="display: none;">
-            <h1 class="video-title"> Lecture 3 exercises</h1>
-<iframe src="https://drive.google.com/file/d/1E4v_fKT0zmliw0KM1is4Attl3Pr4sZOo/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen>
-</iframe>
-                      </div>
-                      
-                      <div class="video" id="video16" style="display: none;">
-            <h1 class="video-title"> Lecture 4 exercises</h1>
-                        <h1 class="video-title"> part 1</h1>
-<iframe src="https://drive.google.com/file/d/1ezGOIbNqI314sf209HQgS1zifixZWPlP/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen>
-</iframe>
+<div class="video" id="video3" style="display: none;">
+                <h1 class="video-title">Mutual Induction</h1>
+<iframe src="https://drive.google.com/file/d/1ZOkxgRwNktqEU01ArtPCdGPtI0_DTfhf/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
+
+<div class="video" id="video4" style="display: none;">
+                <h1 class="video-title">Self induction</h1>
+<iframe src="https://drive.google.com/file/d/1JBvRufHVy54Fdti4Qebfxk8FxeUEJuXd/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
+
+<div class="video" id="video5" style="display: none;">
+                <h1 class="video-title">Dynamo</h1>
+<iframe src="https://drive.google.com/file/d/1bNTVPDdRFlbivMj4w5Bme--D-1hmDDZB/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
+
+<div class="video" id="video6" style="display: none;">
+                <h1 class="video-title">Transformer</h1>
+<iframe src="https://drive.google.com/file/d/10TxqnXvRF9liW7nXWVZ9E6Jt8hlC1A1h/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
+
+<div class="video" id="video7" style="display: none;">
+                <h1 class="video-title">Motor</h1>
+<iframe src="https://drive.google.com/file/d/1bcCGuVSG-FFeqRpxtdbAruL3e7kUUBPY/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
+<div class="video" id="video8" style="display: none;">
+                <h1 class="video-title">Lecture 1 exercises</h1>
+                <h1 class="video-title">part 1</h1>
+<iframe src="https://drive.google.com/file/d/1BLVKeHRyPq8fDLbcKJi0bakUYSjlJWY9/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+                <h1 class="video-title">part 2</h1>
+<iframe src="https://drive.google.com/file/d/1Xn6LxprOv8HdTgjeSPmvndy7KFOgK_pB/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
+<div class="video" id="video9" style="display: none;">
+                <h1 class="video-title">Lecture 2 exercises</h1>
+<iframe src="https://drive.google.com/file/d/1lPQUGCqKjVid1Cphn_TVEy9cBvehHCEm/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
+
+<div class="video" id="video10" style="display: none;">
+                <h1 class="video-title">Lecture 3 exercises</h1>
+                                <h1 class="video-title">part 1</h1>
+<iframe src="https://drive.google.com/file/d/1oE4TZc0kejYkzQV_MLB7qentyafUeQ7-/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+                <h1 class="video-title">part 2</h1>
+<iframe src="https://drive.google.com/file/d/1-Vu8Pq-tr_u86f5VzVJkcQfAXSAP6SZw/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
+
+<div class="video" id="video11" style="display: none;">
+                <h1 class="video-title">Lecture 4 exercises</h1>
+<iframe src="https://drive.google.com/file/d/1HG7iTWDu2r6681Q1akj0qNzCm12k8g1X/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+            </div>
 
 
-                                   <h1 class="video-title"> part 2</h1>
-<iframe src="https://drive.google.com/file/d/1R0ZQXkYbajlfrynBhmcxcVt7HcP_21bs/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-                                              <h1 class="video-title"> part 3</h1>
-<iframe src="https://drive.google.com/file/d/1kBFmbFj0zV4BBXqvHbVo3Xe4S2X7TzMs/preview" 
-        width="640" 
-        height="480" 
-        allow="autoplay" 
-        allowfullscreen></iframe>
-
-                      </div>
         </section>
         
         <section id="contact">
@@ -406,11 +282,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // List of valid usernames
         const validUsernames = [
-            '45454', '0' ,'60752', '29316', '10592', '84267', 
-        '37518', '86247', '82654', '31605', '82436', '59123', '93821', '79824', '10547', '43096', '27509', '94251', 
-        '94238', '71825', '60194', '63472', '68025', '94257', '43712', '85213', '71489', '37486', '59184', '40958', 
-        '27936', '68047', '31562', '85947', '23947', '58372', '91763', '48205', '75314', '10658', '58260', '39471', 
-        '93487', '52863', '31705', '78102', '46852', '63458', '19273', '91426', '60128'
+            '45454', '0' ,'92777', '37501', '97485', '90990',
+'68199', '76459', '12530', '67168',
+'11105', '91748', '45645', '42781',
+'84862', '73863', '52481', '27718',
+'23996', '22713', '85718', '28951',
+'36109', '14409', '11723', '84785',
+'96488', '10559', '58453', '62311',
+'53593', '32607', '95387', '33866',
+'12346', '70725', '90673', '65499',
+'48656', '14890', '56922', '90165',
+'59160', '51359', '17306', '19957',
+'40231', '49313', '27344', '25664',
+'82880', '26583', '75100', '89249',
+'34216', '13139', '41456', '99585'
+
         ];
 
         // Validate username
