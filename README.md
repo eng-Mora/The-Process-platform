@@ -598,7 +598,92 @@
 <iframe src="https://drive.google.com/file/d/1pa2lk25sEXv-alDMXsoZl7iQ9KnI_1Qp/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
             </div>
                     `;
-                }
+                } else if (code === 'CODE4') {
+                    videoHTML = `
+        <section id="videos" class="video-container">
+<select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
+            <option value="video0">.....option.....</option>
+                <option value="video1">chapter 5 part.1 </option>
+                <option value="video2">chapter 5 part.2 </option>
+                <option value="video3">chapter 5 part.3 (exercises) </option>
+                <option value="video4"> chapter 6 part.1</option>
+                <option value="video5"> chapter 6 part.1 </option>
+                <option value="video6">chapter 6 part.3 (exercises) </option>
+                            </select>
+            
+            
+            
+                <div class="video" id="video1" style="display: none;">
+                <h1 class="video-title">chapter 5 part.1</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1xsiWmDpvbeDWpa2mSmRJsoU3HvkCSoVh/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
+            
+                <div class="video" id="video2" style="display: none;">
+                <h1 class="video-title">chapter 5 part.2</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1xJFA095dBm_u7sOPZEqq1nFG_a7yFUsA/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                            </div>
+
+                <div class="video" id="video3" style="display: none;">
+                <h1 class="video-title">chapter 5 part.3 (exercises)</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1nQmKcQx9c2Ur2QR2z_3tBpojFmbxBNuC/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                            </div>
+
+                <div class="video" id="video4" style="display: none;">
+                <h1 class="video-title">chapter 6 part.1</h1>
+                                <h1 class="video-title">bohr's model</h1>
+
+                <iframe 
+    src="https://drive.google.com/file/d/1kNnzmnnH3iFm6gDZuFPt_U_XQPckTVqZ/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                            </div>
+
+                <div class="video" id="video5" style="display: none;">
+                <h1 class="video-title">chapter 6 part.2</h1>
+                                <h1 class="video-title">X-ray</h1>
+
+                <iframe 
+    src="https://drive.google.com/file/d/13jV8i_b_RLIG92OheYDz-R6j6mzIil2H/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+
+                            </div>
+
+                <div class="video" id="video6" style="display: none;">
+                <h1 class="video-title">chapter 6 part.3 (exercises)</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1Bpdh6kqBjHPw22yJMD_TEOPIV7t0jT0q/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+                            </div>
+`;}
 
                 videoContainer.innerHTML = videoHTML;
 
@@ -656,7 +741,15 @@
         '13327', '61063', '65643', '66278', '16506', '77537', '24942', '40267', 
         '25494', '66710', '95621', '25560', '20932', '21246', '26142', '27603', 
         '41031', '15336', '31003', '48775'
-    ]
+    ],
+    'CODE4': ['52903', '79650', '67861', '72333', '25520', '32973',  
+ '39264', '53797', '64717', '36339', '82937', '25739',  
+ '80616', '66645', '76578', '15973', '87692', '20374',  
+ '67678', '73631', '94004', '46798', '96293', '20751',  
+ '62290', '48708', '59522', '11281', '78664', '40295',  
+ '35897', '81859', '85188', '98710', '98291', '18616',  
+ '68910', '81546', '27865', '15946', '59305', '50859']
+
 };
 
                 let code = '';
