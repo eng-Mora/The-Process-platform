@@ -683,8 +683,90 @@
     allowfullscreen>
 </iframe>
                             </div>
-`;}
+`;} 
+else if (code === 'CODE5') {
+                    videoHTML = `
+        <section id="videos" class="video-container">
+<select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
+            <option value="video0">.....option.....</option>
+                <option value="video1">chapter 7  </option>
+                <option value="video2">chapter 7 (exercises) </option>
+                <option value="video3">chapter 8 part.1  </option>
+                <option value="video4"> chapter 8 part.2</option>
+                <option value="video5"> chapter 8 part.3 </option>
+                <option value="video6">chapter 8 (exercises) </option>
+                            </select>
+            
+            
+            
+                <div class="video" id="video1" style="display: none;">
+                <h1 class="video-title">chapter 7</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1DXqidrGDupyjTo7t5OKpKGrYAq5go6DQ/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
 
+<div class="video" id="video2" style="display: none;">
+                <h1 class="video-title">chapter 7 (exercises)</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1DDMW2H210egL72xcTPI1Sb92X3RUIgwz/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
+            
+<div class="video" id="video3" style="display: none;">
+                <h1 class="video-title">Semiconductor</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1u_PDtmf3y1qdHYHsuLrCw04TA5bGFGba/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>            
+            
+<div class="video" id="video4" style="display: none;">
+                <h1 class="video-title">Diode and Transistor</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1vEcbUdTf9P_pM6kJms9Cfj9iQPNbbbAz/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>           
+            
+<div class="video" id="video5" style="display: none;">
+                <h1 class="video-title">Binary and logic gates</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1cMV_bZW8996kCwP3tj8p7vD_3EVUJpbL/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>          
+ 
+            
+<div class="video" id="video6" style="display: none;">
+                <h1 class="video-title">chapter 8 (exercises)</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1Sae3zHy82cFdJZZpa7NC_e875BgkxGK9/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>        
+            `;}
+            
                 videoContainer.innerHTML = videoHTML;
 
                 const videoSelector = document.getElementById('videoSelector');
@@ -748,8 +830,14 @@
  '67678', '73631', '94004', '46798', '96293', '20751',  
  '62290', '48708', '59522', '11281', '78664', '40295',  
  '35897', '81859', '85188', '98710', '98291', '18616',  
- '68910', '81546', '27865', '15946', '59305', '50859']
+ '68910', '81546', '27865', '15946', '59305', '50859'],
 
+'CODE5': ['17693', '67118', '54097', '33341', '86922',  
+ '18454', '29309', '62257', '11267', '23743',  
+ '81359', '56135', '26577', '93718', '47074',  
+ '17499', '61907', '29070', '80972', '73748',  
+ '88799', '27197', '97473', '92672', '54618',  
+ '11373', '88533', '40530', '98219', '33238']
 };
 
                 let code = '';
