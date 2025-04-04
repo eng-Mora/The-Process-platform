@@ -495,11 +495,11 @@
                 <option value="video2">ch.1 part 2</option>
                 <option value="video3">ch.1 part 3</option>
                 
-                <option value="video4"> Ac circuits and hot wire ammeter</option>
-                <option value="video5"> R-Circuit - L-Circuit </option>
-                <option value="video6">Capacitor with DC and C-Circuit </option>
-                <option value="video7">RL-Circuit -- RC-Circuit -- RLC-Circuit </option>
-                <option value="video8">Resonance </option>
+                <option value="video4">ch.4 Ac circuits and hot wire ammeter</option>
+                <option value="video5">ch.4 R-Circuit - L-Circuit </option>
+                <option value="video6"> ch.4 Capacitor with DC and C-Circuit </option>
+                <option value="video7">ch.4 RL-Circuit -- RC-Circuit -- RLC-Circuit </option>
+                <option value="video8">ch.4 Resonance </option>
                 
                 <option value="video9">chapter 1 exercises</option>
                 <option value="video10">chapter 2 exercises</option>
