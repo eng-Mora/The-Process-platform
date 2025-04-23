@@ -765,8 +765,98 @@ else if (code === 'CODE5') {
     allowfullscreen>
 </iframe>
             </div>        
-            `;}
+            `;} 
+            else if (code === 'CODE6') {
+                    videoHTML = `
+        <section id="videos" class="video-container">
+<select id="videoSelector" style="padding: 10px; font-size: 16px; background-color: #3A5795; color: white; border: none;">
+            <option value="video0">.....option.....</option>
+                <option value="video1">chapter 1  </option>
+                <option value="video2">chapter 2 </option>
+                <option value="video3">chapter 3  </option>
+                <option value="video4"> chapter 4</option>
+                <option value="video5"> chapter 5 </option>
+                <option value="video6">chapter 6 </option>
+                <option value="video7">chapter 7 </option>
+                <option value="video8">chapter 8 </option>
+                            </select>
             
+            
+            
+                <div class="video" id="video1" style="display: none;">
+                <h1 class="video-title">chapter 1</h1>
+<iframe 
+    src="https://drive.google.com/file/d/1vw2lBaOIxrtywrYzJNsodJ2ibgV07TMs/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
+            
+            <div class="video" id="video2" style="display: none;">
+                <h1 class="video-title">chapter 2</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1MSLDB3uvuLbXv7P6SaRZaPWkRbUS0lpq/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>
+            </div>
+
+                <div class="video" id="video3" style="display: none;">
+                <h1 class="video-title">chapter 3</h1>
+                 <h1 class="video-title">It's not available right now</h1>
+            </div>
+
+               
+                <div class="video" id="video4" style="display: none;">
+                <h1 class="video-title">chapter 4</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/11GSlxwysr1b4YXt6OtqbQ-6yTcTOcA7d/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>            </div>
+
+                <div class="video" id="video5" style="display: none;">
+                <h1 class="video-title">chapter 5</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1Y3vTZVCHAXX0EQp0wexY5pfCUun4QeRB/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>             </div>
+
+                <div class="video" id="video6" style="display: none;">
+                <h1 class="video-title">chapter 6</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1jAIjCWdH2IZyFK8BeeX0FoOsaYnP69TY/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>             </div>
+
+                <div class="video" id="video7" style="display: none;">
+                <h1 class="video-title">chapter 7</h1>
+                <h1 class="video-title">It's not available right now</h1>
+            </div>
+
+                <div class="video" id="video8" style="display: none;">
+                <h1 class="video-title">chapter 8</h1>
+                <iframe 
+    src="https://drive.google.com/file/d/1tXIU2NImo-YJXlkpOQ0ANUTprPVsbUxz/preview" 
+    width="640" 
+    height="480" 
+    allow="autoplay" 
+    allowfullscreen>
+</iframe>             </div>
+`;}
+
                 videoContainer.innerHTML = videoHTML;
 
                 const videoSelector = document.getElementById('videoSelector');
@@ -837,7 +927,18 @@ else if (code === 'CODE5') {
  '81359', '56135', '26577', '93718', '47074',  
  '17499', '61907', '29070', '80972', '73748',  
  '88799', '27197', '97473', '92672', '54618',  
- '11373', '88533', '40530', '98219', '33238']
+ '11373', '88533', '40530', '98219', '33238'],
+ 
+'CODE6': ['18374', '72691', '54982', '32067', '91045',  
+ '23815', '76120', '90476', '14237', '85921',  
+ '58392', '47218', '61509', '78420', '90213',  
+ '19485', '84673', '56091', '23874', '13048',  
+ '71269', '37415', '98453', '16092', '59273',  
+ '40819', '17392', '76201', '98517', '24016']
+
+ 
+ 
+ 
 };
 
                 let code = '';
